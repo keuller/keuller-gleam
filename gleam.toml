@@ -1,0 +1,17 @@
+name = "rinha_app"
+version = "1.0.0"
+gleam = ">= 0.34.0"
+target = "erlang"
+description = "Rinha Backend 2024 - Gleam API"
+
+[dependencies]
+birl = "~> 1.5"
+mist = "~> 0.17"
+gleam_stdlib = "~> 0.34 or ~> 1.0"
+gleam_pgo = "~> 0.6"
+gleam_http = "~> 3.5"
+gleam_json = "~> 1.0"
+gleam_erlang = "~> 0.24"
+
+[dev-dependencies]
+gleeunit = "~> 1.0"
